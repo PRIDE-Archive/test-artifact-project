@@ -1,0 +1,9 @@
+- name: Build with Maven
+  run: mvn -B package # Generates JAR in target/ directory
+
+- name: Upload JAR Artifact
+  uses: actions/upload-artifact@v4
+  with:
+    name: testartifact # Name of the zip file to be created
+    path: target/*.jar # Path to the file(s) you want to save
+    retention-days: 5
