@@ -53,8 +53,8 @@
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<name>GitHub OWNER Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/pride-archive/test-artifact-project</url>
 		</repository>
 	</distributionManagement>
 </project>
