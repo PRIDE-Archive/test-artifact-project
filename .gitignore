@@ -1,5 +1,5 @@
 # Maven
-#target/
+target/
 *.idea
 # Compiled class file
 *.class
